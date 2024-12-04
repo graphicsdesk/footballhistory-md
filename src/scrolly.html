@@ -1,0 +1,347 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Scrollama: Sticky Side Example</title>
+    <meta name="description" content="Scrollama: Sticky Side Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+    #scrolly {
+        position: relative;
+        padding: 1rem;
+      }
+    .anno{
+      font-size:14px;
+      font-family: 'Roboto', sans-serif;
+    }
+      .xlabel{
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+      }
+      .ylabel{
+        font-size:15px;
+        font-family: 'Roboto', sans-serif;
+      }
+
+
+      
+      article {
+        position: relative;
+        padding: 0;
+        max-width: 20rem;
+        margin: 0 auto;
+      }
+     
+      .tick{
+      font-size:14px;
+    }
+
+
+      #sticky-thing {
+        margin-top:5vh;
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        z-index: 0;
+        top: 12.5vh;
+        height: 75vh;
+        padding-bottom: 7vh;
+        
+        /* Center everything inside */
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+
+
+
+
+
+      #sticky-thing p {
+        /*font-size: 8rem;
+        font-weight: 900;*/
+        color: rgb(0, 0, 0);
+      }
+
+
+      .step:first-child{
+        margin-top:0vh;
+      }
+      .step {
+        margin: 0;
+        margin-top:35vh;
+        margin-bottom:35vh;
+        margin-left:0;
+        margin-right:0;
+        color: #fff;
+        background-color: #fff;
+      }
+
+
+      .step:last-child {
+        margin-bottom: 0;
+      }
+
+
+      .step.is-active{
+        background-color: white;
+        color: #3b3b3b;
+      }
+
+
+      .step.is-active p{
+        background-color: white;
+        color: #3b3b3b;
+      }
+
+
+      .step p {
+        text-align: center;
+        padding: 1rem;
+        font-size: 17px;
+        background-color:#fff;
+        opacity:1;
+      }
+
+
+      .hidden {
+        visibility: hidden;
+        opacity: 0;
+      }
+
+
+      .quarter_opacity {
+        opacity: .25;
+      }
+
+
+      .full_opacity {
+        opacity: 1 !important;
+        transition: opacity 1s;
+      }
+
+
+      .increase_width {
+        stroke-width: 0.5% !important;
+        transition: stroke-width 1s;
+      }
+
+
+      .base_width {
+        stroke-width: 0.2%;
+      }
+
+
+      .fade_in {
+        visibility: visible !important;
+        opacity: 1 !important;
+        transition: opacity 1s;
+      }
+
+      .visible {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transition: opacity 1s;
+      }
+
+
+      #last{
+        opacity:0;
+      }
+
+
+      #twograf p:first-child{
+        margin-bottom:-3vh;
+      }
+
+
+      main{
+        margin-bottom:7.5vh;
+      }
+     
+      @media only screen and (max-width:849px) {
+      .step p{
+        font-size:14.5px;
+      }
+      }
+      @media only screen and (max-width:599px) {
+      .sticky-thing{
+        display:block;
+        margin-bottom:10vh;
+      }
+      .annotation {
+        transform: translateY(10px);
+      }
+      }
+      @media only screen and (min-width:600px) {
+      .sticky-thing{
+        display:flex;
+      }
+
+
+     
+    }
+
+
+    
+   
+    </style>
+    
+  </head>
+
+
+  <body>
+    <main>
+
+
+      <section id="scrolly">
+        <div id="sticky-thing">
+          <include src="timeline.html"></include>
+        </div>
+
+
+        <article>
+          <div class="step" data-step="1">
+           
+            <p>
+              <br><br>
+              Columbia wins their first Ivy League title with head coach Aldo Donelli. They go 6-1 in the League with their only loss coming to Princeton. 
+
+ 
+              
+              
+            </p>
+          </div>
+           <!--I forget if there's supposed to be a placeholder here or not-->
+          <!--
+           <div class="step" data-step="2" style="visibility:hidden;"> 
+            <p>End of NSOP
+            </p>
+          </div>
+        -->
+          <!--I forget if there's supposed to be a placeholder here or not-->
+         
+          <div class="step" data-step="2">
+            <p>
+             
+             
+              <br><br>
+
+            
+              With a loss against Bucknell, the Lions begin their 44-game losing streak.
+
+
+
+              </p>
+      
+          </div>
+          <div class="step" data-step="3" >
+            <p> 
+            
+              The Lawrence A. Wien Stadium, along with the Baker Field (now Kraft Field), opened during the losing streak and didn’t see a win until 1988.
+
+            </p>
+          </div>
+        
+          <div class="step" data-step="4">
+            <p>
+           
+             A 16-13 win against Princeton marked the end of a 44 game losing streak – the NCAA record at the time. 
+
+            </p>
+          </div>
+          <div class="step" data-step="5">
+            <p>
+             
+              Under head coach Ray Tellier the Lions went 8-2 overall with a 5-2 in conference record. The Lions finished second in the League behind Dartmouth.
+
+              </p>
+          </div>
+          <div class="step" data-step="6">
+            <p>
+
+              In a 22-6 loss to Brown, the Light Blue ended the season on a loss. This continued for three years until the 2015 season and a win against Wagner University.
+            </div>
+          
+          <div class="step" data-step="7">
+            <p>
+        
+              <br>
+              <br>
+              An Ivy League coaching legend from Penn, Al Bagnoli was announced as the new head coach of Columbia football. Bagnoli arrived to replace Pete Mangurian who left after three seasons with the team.
+            </div>
+         
+          <div class="step" data-step="8">
+            <p>
+            
+              The 2017 season was the first for the Lions in 21 years. They ended with a record of 8-2 overall with five total Ivy wins. 
+             
+              </p>
+          </div>
+          <div class="step" data-step="9">
+            <p> 
+
+              Al Bagnoli’s sudden retirement allowed interim coach Mark Fabish to be announced in August prior to the start of the season. Despite his previous time alongside Bagnoli, Fabish only managed a 3-6 record with only one win in the Ivy League coming against Cornell. 
+           </p>
+            </div>
+        
+          <div class="step" data-step="10">
+            <p>
+              In December of the same year, Union college head coach Jon Poppe was announced to replace Fabish. Poppe previously worked at Columbia from 2015-2017, and had also served time at Harvard. 
+
+          </p>
+          </div>
+         
+          <div class="step" data-step="11">
+            <p>
+              Poppe’s 5-2 conference record was enough to clinch the Ivy League title for the second time in Columbia football history. This title comes after a 63 year span. 
+
+            </p>
+          </div>
+      
+
+          <div class="step" data-step="13" style="visibility:hidden;">
+            <p style="visibility:hidden;"></p>
+          </div>
+        
+          
+          <div class="step" data-step="14" style="visibility:hidden;" id="last">
+            <p style="visibility:hidden;"></p>
+          </div>
+              </article>
+
+
+
+
+       
+
+
+       
+      </section>
+
+
+    </main>
+
+
+    <!-- <div class='debug'></div> -->
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="./scripts/ai2html-resizer.js"></script>
+   <!-- <script src="./scripts/scrollyscript.js"></script> -->
+   <script src="./scripts/script_timeline.js"></script>
+   
+  </body>
+</html>

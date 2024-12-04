@@ -7,12 +7,116 @@
       "root": "./src/partials",
       "locals": {
         "top": [],
-        "body": [],
+        "body": [
+          {
+            "type": "text",
+            "value": "West Harlem is set to see hundreds of new trees as early as 2027 under a recently announced New York City Department of Parks & Recreation initiative to plant trees in every available city street location by 2035."
+          },
+          {
+            "type": "text",
+            "value": "According to Parks Commissioner Sue Donoghue, who announced the plan on Nov. 8, the initiative aims to plant 18,000 trees annually to meet the city’s 30 percent canopy coverage goal, which was set in November 2023. New York City’s canopy coverage is currently at 22 percent."
+          },
+          {
+            "type": "text",
+            "value": "While the citywide initiative will operate on a nine-year cycle, the parks department plans for every community board to have at least one zone completed on a shorter three-year cycle. Heat-vulnerable areas, including West Harlem, will be prioritized to reach full completion within three years. The project is funded by $136 million from Mayor Eric Adams’ office."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "scrolly.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "The project aims to reduce rising temperatures that present public health and environmental risks by utilizing trees’ ability to provide shade and improve air quality. Due to inequities in New York City’s heat infrastructure, West Harlem is disproportionately affected by heat as climate change worsens. In 2021, the New York Times reported that a street in East Harlem was 31 degrees warmer than a tree-lined street on the Upper West Side."
+          },
+          {
+            "type": "text",
+            "value": "This past summer was one of the hottest on record nationwide<a href=\"https://www.columbiaspectator.com/city-news/2024/07/15/community-advocates-raise-concerns-over-extreme-summer-heat-in-west-harlem-as-city-budget-cuts-affect-cooling-centers/\">, with West Harlem residents especially impacted by reduced accessibility to cooling centers following Adams’ budget cuts</a>."
+          },
+          {
+            "type": "text",
+            "value": "In light of the decreased Parks budget, Brad Taylor, president of Friends of Morningside Park and former chair of the Community Board 9 Parks committee, is skeptical that the parks department will adhere to its timeline."
+          },
+          {
+            "type": "text",
+            "value": "“Given Parks dire budget situation I have serious reservations about how they will maintain these trees over time,” Taylor wrote in a statement to Spectator. “I also question why Central Harlem is not included.”"
+          },
+          {
+            "type": "text",
+            "value": "The New York City heat vulnerability index measures the risk of heat-related illness or death in different neighborhoods. Though Central Harlem is rated a five out of five on the heat vulnerability index—compared to West Harlem’s three out of five—it was not one of the communities prioritized for the initiative. Morningside Park sits on the border between West and Central Harlem, serving as a green space for both communities."
+          },
+          {
+            "type": "graphic",
+            "value": {
+              "asset": "heatvulnerability.html"
+            }
+          },
+          {
+            "type": "text",
+            "value": "“Central Harlem has relatively little park land and it would seem to need much more planting to mitigate the heat island effect of the many hard surfaces in that district,” Taylor wrote."
+          },
+          {
+            "type": "text",
+            "value": "The urban heat island effect refers to the phenomenon of urban areas experiencing higher temperatures than surrounding areas due to a lack of greenery and high concentration of buildings and infrastructure."
+          },
+          {
+            "type": "text",
+            "value": "While the initiative aims to plant trees in street locations, Taylor said he believes that West Harlem has been prioritized because of its high concentration of parks."
+          },
+          {
+            "type": "text",
+            "value": "“I suspect one reason that West Harlem has been selected is that it is easy to meet targets for tree plantings by proposing planting a significant number in our district’s large parks,” Taylor wrote. “However, our parks already have an enormous amount of tree coverage. Adding more to meet a target number of trees for the city will be counterproductive.”"
+          },
+          {
+            "type": "text",
+            "value": "West Harlem resident Pierre Force echoed this sentiment."
+          },
+          {
+            "type": "text",
+            "value": "“There are trees in Riverside Park, which is great, but there could be trees, you know, inside the city itself,” Force said."
+          },
+          {
+            "type": "text",
+            "value": "In a statement to Spectator, Kelsey Jean-Baptiste, Journalism ’20, a press officer for the parks department, shared a <a href=\"https://www.nycgovparks.org/trees/street-tree-planting/locations\">map</a> that indicates the locations for the scheduled tree planting in West Harlem. According to the map, the trees will be planted on street locations, although many of the locations border parks."
+          },
+          {
+            "type": "text",
+            "value": "While the project is scheduled to be completed in West Harlem by 2027, and in the whole of New York City by 2035, residents expressed concerns about whether this timeline is achievable."
+          },
+          {
+            "type": "text",
+            "value": "Taylor also emphasized the need for the city to make additional investments in green spaces beyond tree-planting. He proposed converting excess parking around the city into green space, giving incentives for private buildings to invest in green roofs, and for trees to be introduced in all city playgrounds."
+          },
+          {
+            "type": "text",
+            "value": "“This initiative could have an important impact but only if the solutions are holistic and involve all aspects of the built environment, not just parks,” Taylor wrote."
+          },
+          {
+            "type": "text",
+            "value": "<i>Staff Writer Anamika Changrani-Rastogi can be contacted at </i><a href=\"mailto:anamika.changrani-rastogi@columbiaspectator.com\"><i>anamika.changrani-rastogi@columbiaspectator.com</i></a><i>. Follow her on X </i><a href=\"https://x.com/anamikacr\"><i>@anamikacr</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<i>Deputy Graphics Editor Molly Durawa can be contacted at </i><a href=\"mailto:molly.durawa@columbiaspectator.com\"><i>molly.durawa@columbiaspectator.com</i></a><i>.  Follow Spectator on X </i><a href=\"https://twitter.com/columbiaspec?lang=en\"><i>@ColumbiaSpec</i></a><i>.</i>"
+          },
+          {
+            "type": "text",
+            "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
+          }
+        ],
+        "headline": "Parks department announces plans to plant 18,000 trees annually citywide, prioritizing West Harlem planting",
+        "dek": "The project will focus on West Harlem as a heat-vulnerable area.",
+        "date": "November 25, 2024",
+        "byline": "By Anamika Changrani-Rastogi",
+        "byline2": "Graphic by <a href=\"https://www.columbiaspectator.com/contributors/molly-durawa/\">Molly Durawa</a>",
+        "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/H7QJRWI4OFCKZGHTXMHO6APFY4.JPG",
+        "cover_caption": "<a href=\"https://www.columbiaspectator.com/contributors/pippa-tsuki-carlson/\">Pippa</a><a href=\"https://www.columbiaspectator.com/contributors/pippa-tsuki-carlson/\"> Tsuki Carlson</a> / Senior Staff Photographer",
         "USE_NEWS_NAV": true,
         "USE_EYE_NAV": false,
-        "USE_COVER_HED": false,
+        "USE_COVER_HED": true,
         "IS_EMBED": false,
-        "DOC_URL": null
+        "DOC_URL": "https://docs.google.com/document/d/1OOPdVioZNuH7A4I_9ru2nXneYNZ35AVoMC70CDBa7A0/edit?usp=sharing"
       }
     }
   }
