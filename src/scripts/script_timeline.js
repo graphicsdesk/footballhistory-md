@@ -471,7 +471,7 @@ drawInitialElements();
         
       ];
 
-      for (let i =0; i < events.length+2;i++) {
+      for (let i =1; i < events.length+2;i++) {
         svg.selectAll(`#label-${i}`).classed('hidden',true);
         svg.selectAll(`#arrow-${i}`).classed('hidden',true);
 
@@ -543,7 +543,6 @@ function init() {
     scroller
       .setup({
         step: '#scrolly article .step',
-        offset: 0.98,
         debug: false,
       })
       .onStepEnter(handleStepEnter)
