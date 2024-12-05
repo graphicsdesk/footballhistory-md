@@ -41,6 +41,12 @@
             "value": "This win also marked the Lions’ first win at Wien Stadium, which opened in 1984. Despite breaking the winless streak, the Lions still failed to improve significantly, going 1 and 6 in each of the following three years."
           },
           {
+            "type": "graphic",
+            "value": {
+              "asset": "scrolly.html"
+            }
+          },
+          {
             "type": "text",
             "value": "In 1996, the Lions earned a winning conference season for the first time since 1971 with a 5-2 record. The 1996 team earned second in the league, only falling to Dartmouth. That season under the helm of head coach Ray Tellier would be the team’s last winning season for 24 years."
           },
@@ -59,12 +65,6 @@
           {
             "type": "text",
             "value": "The seven wins were also the most of any rookie Lions’ head coach since 1899 and the highest in the Ivy League since 2015. As Poppe looked back on his historic championship, he focused on the players. “We can enjoy this moment tonight, but after that, these guys that are coming back can’t ride on this anymore, because all these guys are gone, it’s time to move on for the next one,” Poppe said."
-          },
-          {
-            "type": "graphic",
-            "value": {
-              "asset": "scrolly.html"
-            }
           },
           {
             "type": "text",
