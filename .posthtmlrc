@@ -10,15 +10,55 @@
         "body": [
           {
             "type": "text",
-            "value": "West Harlem is set to see hundreds of new trees as early as 2027 under a recently announced New York City Department of Parks & Recreation initiative to plant trees in every available city street location by 2035."
+            "value": "Before football won the Ivy League championship on Nov. 23, the last time the Lions topped the Ivy League charts was over half a century ago in 1961. Following their historic 2024 season, Spectator looked back on those 63 years and why it took Columbia so long to find success in the league."
           },
           {
             "type": "text",
-            "value": "According to Parks Commissioner Sue Donoghue, who announced the plan on Nov. 8, the initiative aims to plant 18,000 trees annually to meet the city’s 30 percent canopy coverage goal, which was set in November 2023. New York City’s canopy coverage is currently at 22 percent."
+            "value": "The 1961 season title win came five years after the opening year of the modern Ivy League football season and was overseen by head coach Aldo “Buff” Donelli. Favored from the beginning of the year, the Lions lived up to expectations at the end of the season with a 50-0 win against Brown. The Light Blue ended its 1961 campaign with a 6-1 Ivy League record, 6-3 overall. Their only losses came against Lehigh University, Rutgers University, and Princeton, and the team finished the season first in the Ivy League, tying with Harvard."
           },
           {
             "type": "text",
-            "value": "While the citywide initiative will operate on a nine-year cycle, the parks department plans for every community board to have at least one zone completed on a shorter three-year cycle. Heat-vulnerable areas, including West Harlem, will be prioritized to reach full completion within three years. The project is funded by $136 million from Mayor Eric Adams’ office."
+            "value": "However, Columbia’s success dried up the following two seasons, with the 1962 campaign ending with a 4-3 conference record and the 1963 season ending with a 3-4-1 record. The 1964 season continued on this downward trend as the Lions’ only conference win came against Penn."
+          },
+          {
+            "type": "text",
+            "value": "This downward spiral followed through the 1960s, with Columbia seeing no more than two wins per season. In 1967, the Lions’ head coach Aldo Donelli retired after 11 seasons with the team and was replaced by Frank Navarro in 1968. Despite the coaching switch, the Lions’ luck did not improve, earning only a  1-6 record in 1969."
+          },
+          {
+            "type": "text",
+            "value": "Navarro was soon replaced by Bill Campbell in 1974. Campbell had his own history with the Lions, as a player who had starred on the 1961 championship team and was named to the All-Ivy League team that same year. Despite this, his tenure as a coach did not get off to a strong start, going winless in his first Ivy League season at the helm."
+          },
+          {
+            "type": "text",
+            "value": "Bob Naso replaced Navarro as head coach in 1979 and continued for five years before leaving in 1984. During his tenure, Columbia saw a winless season in 1984 for the first time since 1946. Continuing the winless streak was Jim Garrett, a former coach from Susquehanna University. Garett only lasted a year, adding 10 games to the losing streak before a new coach was brought in with the hope of turning things around."
+          },
+          {
+            "type": "text",
+            "value": "The next head coach, Larry McElreavy, shepherded the team through a 23-game losing streak before finally earning a hard fought win against Princeton on Oct. 3, 1988—a full 1,815 days since the team’s last win against Yale. The period of 44 winless games—“the streak”—became an NCAA football record that was eventually overtaken by Prairie View A&M University from 1989 to 1998."
+          },
+          {
+            "type": "text",
+            "value": "This win also marked the Lions’ first win at Wien Stadium, which opened in 1984. Despite breaking the winless streak, the Lions still failed to improve significantly, going 1 and 6 in each of the following three years."
+          },
+          {
+            "type": "text",
+            "value": "In 1996, the Lions earned a winning conference season for the first time since 1971 with a 5-2 record. The 1996 team earned second in the league, only falling to Dartmouth. That season under the helm of head coach Ray Tellier would be the team’s last winning season for 24 years."
+          },
+          {
+            "type": "text",
+            "value": "The Lions’ stagnation continued through the early 21st century, going winless in 2007 and then again with a 23-game, two-year winless streak in 2013 and 2014. Their next big break came in 2017 with head coach Al Bagnoli’s third season with the Light Blue. Columbia finished with a winning record—8-2 overall and 5-2 in the Ivy League—for the first time in 24 years. The Lions, however, fell back into stagnation within the League after this campaign, consistently finishing in the middle of the table until Bagnoli’s departure in 2022."
+          },
+          {
+            "type": "text",
+            "value": "Last year saw interim coach Mark Fabish take charge, and the Lions finished at the bottom of the Ivy League table with a 3-7 overall record. Columbia’s single Ivy League win came against Cornell in the last game of the season. Heading into the 2024 season, the Lions were picked last in the preseason Ivy League Poll."
+          },
+          {
+            "type": "text",
+            "value": "This year, new head coach Jon Poppe returned to Columbia from a brief stint as the head coach of Union College in 2023, having previously served as an assistant coach under Bagnoli. Under his leadership, the Lions earned their second title after 63 years, ending the longest title drought in the Ivy League. The Light Blue split the title with Harvard and Dartmouth. Wins against teams like No. 16 Lafayette and last year’s Ivy League champion Yale contributed to the Lions’ 7-3 overall record, and the championship garnered national media attention as the renowned losing team ended its titleless drought."
+          },
+          {
+            "type": "text",
+            "value": "The seven wins were also the most of any rookie Lions’ head coach since 1899 and the highest in the Ivy League since 2015. As Poppe looked back on his historic championship, he focused on the players. “We can enjoy this moment tonight, but after that, these guys that are coming back can’t ride on this anymore, because all these guys are gone, it’s time to move on for the next one,” Poppe said."
           },
           {
             "type": "graphic",
@@ -28,73 +68,7 @@
           },
           {
             "type": "text",
-            "value": "The project aims to reduce rising temperatures that present public health and environmental risks by utilizing trees’ ability to provide shade and improve air quality. Due to inequities in New York City’s heat infrastructure, West Harlem is disproportionately affected by heat as climate change worsens. In 2021, the New York Times reported that a street in East Harlem was 31 degrees warmer than a tree-lined street on the Upper West Side."
-          },
-          {
-            "type": "text",
-            "value": "This past summer was one of the hottest on record nationwide<a href=\"https://www.columbiaspectator.com/city-news/2024/07/15/community-advocates-raise-concerns-over-extreme-summer-heat-in-west-harlem-as-city-budget-cuts-affect-cooling-centers/\">, with West Harlem residents especially impacted by reduced accessibility to cooling centers following Adams’ budget cuts</a>."
-          },
-          {
-            "type": "text",
-            "value": "In light of the decreased Parks budget, Brad Taylor, president of Friends of Morningside Park and former chair of the Community Board 9 Parks committee, is skeptical that the parks department will adhere to its timeline."
-          },
-          {
-            "type": "text",
-            "value": "“Given Parks dire budget situation I have serious reservations about how they will maintain these trees over time,” Taylor wrote in a statement to Spectator. “I also question why Central Harlem is not included.”"
-          },
-          {
-            "type": "text",
-            "value": "The New York City heat vulnerability index measures the risk of heat-related illness or death in different neighborhoods. Though Central Harlem is rated a five out of five on the heat vulnerability index—compared to West Harlem’s three out of five—it was not one of the communities prioritized for the initiative. Morningside Park sits on the border between West and Central Harlem, serving as a green space for both communities."
-          },
-          {
-            "type": "graphic",
-            "value": {
-              "asset": "heatvulnerability.html"
-            }
-          },
-          {
-            "type": "text",
-            "value": "“Central Harlem has relatively little park land and it would seem to need much more planting to mitigate the heat island effect of the many hard surfaces in that district,” Taylor wrote."
-          },
-          {
-            "type": "text",
-            "value": "The urban heat island effect refers to the phenomenon of urban areas experiencing higher temperatures than surrounding areas due to a lack of greenery and high concentration of buildings and infrastructure."
-          },
-          {
-            "type": "text",
-            "value": "While the initiative aims to plant trees in street locations, Taylor said he believes that West Harlem has been prioritized because of its high concentration of parks."
-          },
-          {
-            "type": "text",
-            "value": "“I suspect one reason that West Harlem has been selected is that it is easy to meet targets for tree plantings by proposing planting a significant number in our district’s large parks,” Taylor wrote. “However, our parks already have an enormous amount of tree coverage. Adding more to meet a target number of trees for the city will be counterproductive.”"
-          },
-          {
-            "type": "text",
-            "value": "West Harlem resident Pierre Force echoed this sentiment."
-          },
-          {
-            "type": "text",
-            "value": "“There are trees in Riverside Park, which is great, but there could be trees, you know, inside the city itself,” Force said."
-          },
-          {
-            "type": "text",
-            "value": "In a statement to Spectator, Kelsey Jean-Baptiste, Journalism ’20, a press officer for the parks department, shared a <a href=\"https://www.nycgovparks.org/trees/street-tree-planting/locations\">map</a> that indicates the locations for the scheduled tree planting in West Harlem. According to the map, the trees will be planted on street locations, although many of the locations border parks."
-          },
-          {
-            "type": "text",
-            "value": "While the project is scheduled to be completed in West Harlem by 2027, and in the whole of New York City by 2035, residents expressed concerns about whether this timeline is achievable."
-          },
-          {
-            "type": "text",
-            "value": "Taylor also emphasized the need for the city to make additional investments in green spaces beyond tree-planting. He proposed converting excess parking around the city into green space, giving incentives for private buildings to invest in green roofs, and for trees to be introduced in all city playgrounds."
-          },
-          {
-            "type": "text",
-            "value": "“This initiative could have an important impact but only if the solutions are holistic and involve all aspects of the built environment, not just parks,” Taylor wrote."
-          },
-          {
-            "type": "text",
-            "value": "<i>Staff Writer Anamika Changrani-Rastogi can be contacted at </i><a href=\"mailto:anamika.changrani-rastogi@columbiaspectator.com\"><i>anamika.changrani-rastogi@columbiaspectator.com</i></a><i>. Follow her on X </i><a href=\"https://x.com/anamikacr\"><i>@anamikacr</i></a><i>.</i>"
+            "value": "<i>Deputy Sports Editor Arielle Rieder can be contacted at </i><a href=\"mailto:arielle.rieder@columbiaspectator.com\"><i>arielle.rieder@columbiaspectator.com</i></a><i>. Follow her on X </i><a href=\"https://x.com/ArielleRieder\"><i>@ArielleRieder</i></a><i>.</i>"
           },
           {
             "type": "text",
@@ -105,10 +79,10 @@
             "value": "<b><i>Want to keep up with breaking news? Subscribe to our </i></b><a href=\"https://columbiaspectator.us4.list-manage.com/subscribe?u=a3d2eeb1ae5560ca04f82f042&id=e51c51d62d\"><b><i>email newsletter </i></b></a><b><i>and like Spectator on </i></b><a href=\"https://www.facebook.com/columbiaspectator\"><b><i>Facebook</i></b></a><b><i>. </i></b>"
           }
         ],
-        "headline": "Parks department announces plans to plant 18,000 trees annually citywide, prioritizing West Harlem planting",
-        "dek": "The project will focus on West Harlem as a heat-vulnerable area.",
-        "date": "November 25, 2024",
-        "byline": "By Anamika Changrani-Rastogi",
+        "headline": "1961 to 2024: How Columbia football roared back to the top",
+        "dek": "Spectator looked back on 63 years of football coaching history—and the rookie coach who brought the Lions their first league title since 1961.",
+        "date": "December 4, 2024",
+        "byline": "By <a href=\"https://www.columbiaspectator.com/contributors/arielle-rieder/\">Arielle Rieder</a>",
         "byline2": "Graphic by <a href=\"https://www.columbiaspectator.com/contributors/molly-durawa/\">Molly Durawa</a>",
         "cover_asset": "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/H7QJRWI4OFCKZGHTXMHO6APFY4.JPG",
         "cover_caption": "<a href=\"https://www.columbiaspectator.com/contributors/pippa-tsuki-carlson/\">Pippa</a><a href=\"https://www.columbiaspectator.com/contributors/pippa-tsuki-carlson/\"> Tsuki Carlson</a> / Senior Staff Photographer",

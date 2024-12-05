@@ -58,18 +58,18 @@ const margin = {top: 20, right: 70, bottom: 30, left: 40};
 
 // Define the timeline data
 const events = [
-  {date: new Date('1961-11-18'), label: 'Columbia wins first Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DZC4W4MJFFHYFJC5WGABAP2EQA.jpg'},
+  {date: new Date('1961-11-18'), label: 'Football wins first Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DZC4W4MJFFHYFJC5WGABAP2EQA.jpg'},
   {date: new Date('1983-10-22'), label: 'Start of 44-game losing streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VGEWYV2EZBE7NILU7LBPBR7G3Q.png'},
   {date: new Date('1984-09-22'), label: 'Lawrence A. Wien Stadium opens', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SRGR37M6IRDSPJIJCQDOT6YIWA.png'},
   {date: new Date('1988-10-08'), label: 'End of 44-game losing streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YZ37MEG675GVJHXAZIUCYCRWIQ.png'},
-  {date: new Date('1996-11-23'), justyear: 'true', label: 'Last winnning season for 21 years', segment:'na',link:'https://t4.ftcdn.net/jpg/05/91/75/69/360_F_591756994_RWtNuVkWDKEIer7eozEne5xe3rZo2QbD.jpg'},
-  {date: new Date('2012-11-10'), label: 'Start of 24-game winless streak', segment:'na'},
-  {date: new Date('2014-02-23'), label: 'Al Bagnoli arrive as head coach', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZMJGSOLAJVCT7LO3QHYGY6RFCI.png'},
+  {date: new Date('1996-11-23'), justyear: 'true', label: 'Last winnning season for 21 years', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3NNTGW5I3VAV7FS5LADUTL7A7A.png'},
+  {date: new Date('2012-11-10'), label: 'Start of 24-game losing streak', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LYVWS74LFZGYHPGAEZFULPWUTU.png'},
+  {date: new Date('2015-02-23'), label: 'Al Bagnoli arrives as head coach', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZMJGSOLAJVCT7LO3QHYGY6RFCI.png'},
   {date: new Date('2017-11-18'), justyear: 'true', label: 'First winning season since 1996', segment:'na', link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V4HCTK2OMFF3LCL4HKGBPJ3ZVQ.png'},
-  {date: new Date('2023-08-04'), label: 'Mark Fabish arrives as interim head coach', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/U5252ZVEMFDKREAEL4UWZTCT24.png'},
-  {date: new Date('2023-12-02'), label: 'Jon Poppe announced as head coach for 2024 season', segment:'na',link: 'https://cdn.pixabay.com/photo/2017/05/11/16/40/emoji-2304720_1280.png'},
-  {date: new Date('2024-11-23'), label: 'Columbia wins second Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KAHDPKYXYJEE3HFN7WZG7PPZDY.png'}
-
+  {date: new Date('2023-08-04'), label: 'Mark Fabish steps up', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/U5252ZVEMFDKREAEL4UWZTCT24.png'},
+  {date: new Date('2023-12-02'), label: 'Jon Poppe announced as head coach for 2024 season', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GYKVJUWFTBDNPM2VROGSQC2KGE.png'},
+  {date: new Date('2024-11-23'), label: 'Second Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KAHDPKYXYJEE3HFN7WZG7PPZDY.png'},
+  {date: new Date('2024-11-23'), label: '', segment:'na'}
   
   
   
@@ -294,7 +294,13 @@ function updateView(eventIndex, moveText) {
         if(events[eventIndex].segment =='na') {
           svg.selectAll('image').transition()
           .duration(2000)
-          .attr('x', d => newX(d.date));}
+          .attr('x', function(d) {
+            const imageElement = d3.select(this); // Select the current image element
+            const imageWidth = imageElement.node().getBBox().width; // Get the width dynamically
+            
+            // Center the image horizontally based on the x value for this event
+            return newX(d.date) - imageWidth / 2; // Adjust x to center the image
+          });}
           
         
 
@@ -405,10 +411,10 @@ svg.selectAll('image')
 .enter()
 .append('image')
    // .attr('visibility','hidden')
-    .attr("x",width/2)  // X position
+    .attr("x",width/2-150)  // X position
     .attr('xlink:href', d => d.link) // FIGURE OUT HOW TO MAKE IT NOT HAVE THIS AT FIRST
-    .attr("y", y-350)  // Y position
-    .attr("height", 300)
+    .attr("y", y-(height*0.35+height*0.05))  // Y position
+    .attr("height", height*0.35)
     .attr('id', (d, i) => `image-${i+1}`);  
   
   
@@ -471,7 +477,7 @@ drawInitialElements();
         
       ];
 
-      for (let i =1; i < events.length+2;i++) {
+      for (let i =1; i < events.length+3;i++) {
         svg.selectAll(`#label-${i}`).classed('hidden',true);
         svg.selectAll(`#arrow-${i}`).classed('hidden',true);
 
@@ -492,7 +498,6 @@ drawInitialElements();
       
      
         svg.selectAll(`#image-${i}`).classed('visible',true);
-        
 
 
           });
@@ -527,8 +532,8 @@ for (let i =0; i < events.length;i++) {
     });
 }
 
-    
 
+/*
 // Create scrollable sections
 const steps = d3.select('#scroll-steps')
     .selectAll('div')
@@ -536,6 +541,9 @@ const steps = d3.select('#scroll-steps')
     .enter().append('div')
     .attr('class', 'step')
     .text(d => d.label);
+
+*/
+    
 
 // Initialize scrollama
 function init() {
