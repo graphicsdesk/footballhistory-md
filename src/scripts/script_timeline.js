@@ -553,6 +553,7 @@ function init() {
     scroller
       .setup({
         step: '#scrolly article .step',
+        offset: 0.9,
         debug: false,
       })
       .onStepEnter(handleStepEnter)
