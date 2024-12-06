@@ -70,7 +70,7 @@ const events = [
   {date: new Date('2017-11-18'), justyear: 'true', label: 'First winning season since 1996', segment:'na', link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V4HCTK2OMFF3LCL4HKGBPJ3ZVQ.png'},
   {date: new Date('2023-08-04'), label: 'Mark Fabish steps up', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/U5252ZVEMFDKREAEL4UWZTCT24.png'},
   {date: new Date('2023-12-02'), label: 'Jon Poppe announced as head coach for 2024 season', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/GYKVJUWFTBDNPM2VROGSQC2KGE.png'},
-  {date: new Date('2024-11-23'), label: 'Second Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/KAHDPKYXYJEE3HFN7WZG7PPZDY.png'},
+  {date: new Date('2024-11-23'), label: 'Second Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/HWH2P4REUNAZHF45ESFW6ANJPE.png'},
   {date: new Date('2024-11-23'), label: '', segment:'na'}
   
   
@@ -269,7 +269,7 @@ function updateView(eventIndex, moveText) {
     // Redraw the lines, circles, and labels based on the new scale
     svg.selectAll('.line')
         .transition()
-        .duration(2000)
+        .duration(1000)
         .attr('x1', (d, i) => newX(events[i].date))
         .attr('y1', y)
         .attr('x2', d => newX(d.date))
@@ -279,7 +279,7 @@ function updateView(eventIndex, moveText) {
 
       svg.selectAll('circle')
         .transition()
-        .duration(2000)
+        .duration(1000)
         .attr('cx', d => newX(d.date));
 
       
@@ -289,13 +289,13 @@ function updateView(eventIndex, moveText) {
         if(events[eventIndex].link ) {
           console.log(events[eventIndex])
           svg.selectAll('image').transition()
-          .duration(2000)
+          .duration(1000)
           .attr('x', d => newX(d.date));}
 
         
         if(events[eventIndex].segment =='na') {
           svg.selectAll('image').transition()
-          .duration(2000)
+          .duration(1000)
           .attr('x', function(d) {
             const imageElement = d3.select(this); // Select the current image element
             const imageWidth = imageElement.node().getBBox().width; // Get the width dynamically
@@ -309,12 +309,12 @@ function updateView(eventIndex, moveText) {
           
             svg.selectAll('text.label') // different attrs based on if there's an arrow or not
             .transition()
-            .duration(2000)
+            .duration(1000)
             .attr('x', d => newX(d.date)-45)
 
             svg.selectAll('text.date') // different attrs based on if there's an arrow or not
             .transition()
-            .duration(2000)
+            .duration(1000)
             .attr('x', d => newX(d.date));
       
 
@@ -323,7 +323,7 @@ function updateView(eventIndex, moveText) {
     // Draw curved arrows pointing to circles
     svg.selectAll('path.curved-arrow')
     .transition()
-    .duration(2000)
+    .duration(1000)
       .attr('d', d => createCurvedPath(d, newX(d.date))); // TBH I THINK IT'S UNNECESSARY TO DO THIS WHOLE NEWX THING BC IT'S ALWAYS GOING TO BE THE WINDOW WIDTH/2
 
 
@@ -528,6 +528,12 @@ for (let i =0; i < events.length;i++) {
        svg.selectAll(`#circle-${i-1}`).classed('highlighted-event',false).classed('hidden',false);
        svg.selectAll(`#label-${i}`).classed('fade-in',true); // WANT TO MAKE THIS APPEAR EARLIER/LATER THAN OTHERS
        svg.selectAll(`#image-${i+1}`).classed('visible',false);
+       svg.selectAll(`#image-${i-1}`).classed('hidden',false);
+       svg.selectAll(`#label-${i-1}`).classed('hidden',false);
+       svg.selectAll(`#arrow-${i-1}`).classed('hidden',false);
+
+
+
 
 
 

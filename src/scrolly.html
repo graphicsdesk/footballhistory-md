@@ -222,17 +222,33 @@
 
      
     }
+    .p4 {
+      text-align: center;
+
+    }
 
     @media (max-width: 600px) {
     svg {
         width: 100%;
         height: auto;
     }
+    .p4 {
+      visibility: visible;
+
+    }
 
     #scrolly {
         padding: 10px;
     }
 }
+@media (min-width:601px) {
+  .p4 {
+      visibility: hidden;
+
+    }
+
+}
+
 
 
     
@@ -247,7 +263,10 @@
 
 
       <section id="scrolly">
+        <p class="p4"><b> Note: The following timeline is best experienced on a larger screen.</b></p>
+
         <div id="sticky-thing">
+          
           <include src="timeline.html"></include>
         </div>
 
