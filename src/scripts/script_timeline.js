@@ -54,14 +54,16 @@ let viewBox;
 // Define the dimensions and margins of the SVG
 //width = 800;
 //height = 100;
+
+
 const margin = {top: 20, right: 70, bottom: 30, left: 40};
 
 // Define the timeline data
 const events = [
-  {date: new Date('1961-11-18'), label: 'Football wins first Ivy League Title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DZC4W4MJFFHYFJC5WGABAP2EQA.jpg'},
-  {date: new Date('1983-10-22'), label: 'Start of 44-game losing streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VGEWYV2EZBE7NILU7LBPBR7G3Q.png'},
+  {date: new Date('1961-11-18'), label: 'Football wins first Ivy League title', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/DZC4W4MJFFHYFJC5WGABAP2EQA.jpg'},
+  {date: new Date('1983-10-22'), label: 'Start of 44-game winless streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/VGEWYV2EZBE7NILU7LBPBR7G3Q.png'},
   {date: new Date('1984-09-22'), label: 'Lawrence A. Wien Stadium opens', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SRGR37M6IRDSPJIJCQDOT6YIWA.png'},
-  {date: new Date('1988-10-08'), label: 'End of 44-game losing streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YZ37MEG675GVJHXAZIUCYCRWIQ.png'},
+  {date: new Date('1988-10-08'), label: 'End of 44-game winless streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YZ37MEG675GVJHXAZIUCYCRWIQ.png'},
   {date: new Date('1996-11-23'), justyear: 'true', label: 'Last winnning season for 21 years', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3NNTGW5I3VAV7FS5LADUTL7A7A.png'},
   {date: new Date('2012-11-10'), label: 'Start of 24-game losing streak', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LYVWS74LFZGYHPGAEZFULPWUTU.png'},
   {date: new Date('2015-02-23'), label: 'Al Bagnoli arrives as head coach', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZMJGSOLAJVCT7LO3QHYGY6RFCI.png'},
