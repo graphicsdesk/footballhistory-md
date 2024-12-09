@@ -65,7 +65,7 @@ const events = [
   {date: new Date('1984-09-22'), label: 'Lawrence A. Wien Stadium opens', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/SRGR37M6IRDSPJIJCQDOT6YIWA.png'},
   {date: new Date('1988-10-08'), label: 'End of 44-game winless streak', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/YZ37MEG675GVJHXAZIUCYCRWIQ.png'},
   {date: new Date('1996-11-23'), justyear: 'true', label: 'Last winnning season for 21 years', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/3NNTGW5I3VAV7FS5LADUTL7A7A.png'},
-  {date: new Date('2012-11-10'), label: 'Start of 24-game losing streak', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LYVWS74LFZGYHPGAEZFULPWUTU.png'},
+  {date: new Date('2012-11-17'), label: 'Start of 24-game losing streak', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/LYVWS74LFZGYHPGAEZFULPWUTU.png'},
   {date: new Date('2015-02-23'), label: 'Al Bagnoli arrives as head coach', segment:'na',link: 'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/ZMJGSOLAJVCT7LO3QHYGY6RFCI.png'},
   {date: new Date('2017-11-18'), justyear: 'true', label: 'First winning season since 1996', segment:'na', link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/V4HCTK2OMFF3LCL4HKGBPJ3ZVQ.png'},
   {date: new Date('2023-08-04'), label: 'Mark Fabish steps up', segment:'na',link:'https://cloudfront-us-east-1.images.arcpublishing.com/spectator/U5252ZVEMFDKREAEL4UWZTCT24.png'},
